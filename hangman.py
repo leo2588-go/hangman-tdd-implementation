@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-Hangman Game - Main Program
-Author: CDU Software Engineering Student
+Hangman Game – Main Program
+Author: Yuan Li
+Student ID: s390310
 Course: PRT582 - Software Unit Testing
+Institution: Charles Darwin University
+GitHub Repository: https://github.com/leo2588-go/hangman-tdd-implementation
 
 Main entry point for the hangman game.
 Developed using TDD methodology for unit testing coursework.
 
 To run: python hangman.py
 Requirements: Python 3.7+ (no external dependencies)
-
-GitHub: https://github.com/student/hangman-tdd-implementation
 """
+
 
 import sys
 import os
