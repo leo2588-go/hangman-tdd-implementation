@@ -71,9 +71,9 @@ def show_welcome():
     print("          HANGMAN GAME")
     print("      TDD Implementation")
     print()  
-    print("  Student: CDU Software Engineering")
+    print("  Student: Yuan Li (s390310)")
     print("  Course: PRT582 - Unit Testing")
-    print("  GitHub: github.com/student/hangman-tdd")
+    print("  https://github.com/leo2588-go/hangman-tdd-implementation")
     print("=" * 50)
     print()
 
