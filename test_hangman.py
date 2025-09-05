@@ -24,7 +24,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from word_dictionary import WordDictionary
 
-from timer import GameTimerfrom game import GameLevel, GameState, HangmanGame
+from timer import GameTimer
+from game import GameLevel, GameState, HangmanGame
 from ui import HangmanUI
 
 
@@ -195,7 +196,8 @@ class TestHangmanUI(unittest.TestCase):
         """Should handle basic difficulty selection."""
         choice = self.ui.get_difficulty()
         self.assertEqual(choice, GameLevel.BASIC)
-    @patch('builtins.input', return_value='2')    def test_difficulty_choice_intermediate(self, mock_input):
+    @patch('builtins.input', return_value='2')
+    def test_difficulty_choice_intermediate(self, mock_input):
         """Should handle intermediate difficulty selection."""
         choice = self.ui.get_difficulty()
         self.assertEqual(choice, GameLevel.INTERMEDIATE)
@@ -209,7 +211,8 @@ class TestHangmanUI(unittest.TestCase):
         """Should display successful guess correctly."""
         self.ui.show_guess_result(True, "Good guess!")
         mock_print.assert_called()
-    @patch('builtins.print')    def test_show_guess_result_failure(self, mock_print):
+    @patch('builtins.print')
+    def test_show_guess_result_failure(self, mock_print):
         """Should display failed guess correctly."""
         self.ui.show_guess_result(False, "Wrong letter!")
         mock_print.assert_called()
