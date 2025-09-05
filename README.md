@@ -1,10 +1,6 @@
 # Hangman Game - TDD Implementation
 
-**Author:** Yuan Li  
-**Student ID:** s390310  
-**Course:** PRT582 - Software Unit Testing  
-**Institution:** Charles Darwin University  
-**GitHub Repository:** [https://github.com/leo2588-go/hangman-tdd-implementation](https://github.com/leo2588-go/hangman-tdd-implementation)
+**Author:** Yuan Li**Student ID:** s390310**Course:** PRT582 - Software Unit Testing**Institution:** Charles Darwin University**GitHub Repository:** [https://github.com/leo2588-go/hangman-tdd-implementation](https://github.com/leo2588-go/hangman-tdd-implementation)
 
 ---
 
